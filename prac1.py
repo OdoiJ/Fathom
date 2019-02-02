@@ -1,7 +1,9 @@
-def raise_to_power(base_no, pow_no):
-    answer = 1
+# base_no = int(input("enter base:"))
+# pow_no = int(input("enter power:"))
+def power(base_no, pow_no):
+    result = 1
     for index in range (pow_no):
-        result = answer * base_no
-        return result
+        result = result*base_no
+    return result
 
-print(raise_to_power(3, 2))      
+print(power(3, 4))     
